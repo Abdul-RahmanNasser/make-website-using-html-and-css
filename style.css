@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right,#00aeff,#000000);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    height: 600px;
+    background: linear-gradient(to left,#e100ff9c,#ff770073),
+    url(photo_2022-04-29_00-23-18\(2\).jpg);
+    background-position: center;
+}
+
+.container:hover {
+    background: linear-gradient(to left,#f7f6f79c,#ff770073),
+    url(photo_2022-04-29_00-23-18\(2\).jpg);
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    width: 60%;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+li {
+    border-bottom: 2px solid transparent;
+}
+
+li:hover {
+    border-bottom: 2px solid #000000;
+}
+
+li a {
+    color: #000000;
+}
+
+.content {
+    padding: 100px 20px;
+}
+
+h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+p {
+    width: 30%;
+    letter-spacing: 2px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 5px solid white;
+    background-color: transparent;
+    color: white;
+}
